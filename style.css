@@ -1,5 +1,6 @@
 body{
   text-align: center;
+  font-family: impact, sans-serif;
 }
 div{
   width: 350px;
@@ -8,12 +9,19 @@ div{
   display: inline-block;
   overflow: hidden;
 }
+.highScoreDiv{
+  height: 50px;
+  border: none;
+}
 h2{
   font-size: 85px;
-  font-family: impact, sans-serif;
   margin: 0;
   position: relative;
   top: 35%;
+}
+h3{
+  font-size: 45px;
+  margin: 0;
 }
 .red{
   color: red;
